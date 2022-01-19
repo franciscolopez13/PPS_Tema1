@@ -24,10 +24,10 @@ lista=[6,14,11,3,2,1,15,19]
 if RANGO(variable, min, max):
   try:        
     if estaEnLista(variable, lista):
-      print(f"el numero {variable} está dentro de la lista")
+      print(f"El numero {variable} está dentro en la lista")
     else:
-      print(f"el numero {variable} está en el rango pero no está en la lista")
+      print(f"El numero {variable} si está en el rango pero en la lista no coincide.")
    except IndentationError:
-    print("esto no ha salido según lo esperado")
+    print("Ha salido mal")
 else:
-  print(f"en número {variable} no está entre {min} y {max}" )
+  print(f"En número {variable} no está entre {min} y {max}" )
