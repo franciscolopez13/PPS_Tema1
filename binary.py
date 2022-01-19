@@ -17,7 +17,7 @@ def extraer (binario):
     except TypeError:
         return False
 
-cadena=str(input("introduce un número binario: "))
+cadena=str(input("introduce un número que sea binario: "))
 
 if Binario(cadena):
     print(f"{cadena} es binario " + str(extraer(cadena)))
